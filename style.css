@@ -1,0 +1,72 @@
+body{
+    background: #f2f2f2;
+}
+.signup{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.col-md-6{
+    margin-bottom: 1% !important;
+}
+label{
+    font-size: 15px;
+    font-weight: 700;
+}
+.navbar-nav.mr-auto {
+    position: absolute !important;
+    right: 5% !important;
+    top: 10% !important;
+}
+.nav-link:hover{
+    color:skyblue !important;
+    text-decoration: underline;
+}
+.user-image{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    margin-left:30%;
+}
+.card-row{
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+}
+.smallerror{
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    color: red;
+    font-size: medium;
+}
+small{
+    color:red;
+}
+a.upload-picture {
+    font-size: larger;
+    font-weight: 600;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+@media screen and (max-width:480px){
+    .card-row{
+        width:100%;
+    }
+    .user-image{
+        margin-left:10%;
+    }
+}
+.upload-image-card, .upload-resume-card, .upload-voice-card {
+    width: 50%;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+img#photo {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
